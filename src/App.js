@@ -44,14 +44,14 @@ class App extends React.Component {
 		return (
 			<div>
 				<h1>Magic 8 Ball</h1>
-				<div className='black_ball'>
+				<div className='eight-ball'> <span>8</span> </div>
 					<input id='inputBox' type='text' onChange={this.handleChange} />
 					<br />
 					<button onClick={this.handleSubmit}>
 						Ask the Magic 8 Ball a Question
 					</button>
 					<p> {this.state.answer} </p>
-				</div>
+				
 			</div>
 		)
 	}

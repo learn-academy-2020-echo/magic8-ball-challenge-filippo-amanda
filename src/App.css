@@ -8,3 +8,36 @@ h1{
   text-decoration: underline;
   font-size: 40px;
 }
+
+.eight-ball {
+  height: 200px;
+  width: 200px;
+  background-color: #cdcdcd;
+  border-radius: 50%;
+  margin: 20px auto;
+  box-shadow: inset -25px -25px 55px 65px #000;
+  position: relative;
+
+}
+
+.eight-ball span {
+  display: block;
+  background-color: #ffffff;
+  border: #cdcdcd solid 2px;
+  border-radius: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 38px;
+  padding: 18px 16px 17px 24px;
+  position: absolute;
+  top: 44px;
+  left: 86px;
+  transform: rotate(-22deg);
+}
+
+#inputBox {
+  margin-bottom: 10px;
+}
+
+
